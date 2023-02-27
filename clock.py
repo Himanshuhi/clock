@@ -12,10 +12,6 @@ def time():
     lbl.after(1000, time)
 
 lbl = Label(root, font = ('calibri', 40, 'roman'), background = 'black' , foreground = 'cyan')
-# font style:italic, bold, normal, roman,
-# colour: black, blue,cyan, darkcyan, green, purple,red, yellow, white 
-# formatting argument: blink,bold,faint,hidden,italic,inverse,strike,underline,end 
-# calibri, helvetica
 lbl.pack(anchor='center')
 time()
 
